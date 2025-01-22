@@ -1,0 +1,47 @@
+/* Based on project web */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /* Color */
+    --primary-color: #FF5B2E;
+    
+    /* Font */
+    --primary-font: "Poppins", sans-serif;
+    --heading-font: "Sora", sans-serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", serif;
+}
+
+
+/* Common class */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Sora", serif;
+}
+
+input,
+select,
+textarea,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
