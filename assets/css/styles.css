@@ -162,6 +162,12 @@ a {
 
     min-width: 118px;
     height: var(--height);
+    transition: 0.25s;
+}
+
+.header__action__btn:hover {
+    background: var(--primary-text-color);
+    color: #fff;
 }
 
 /* Hero */
@@ -705,6 +711,12 @@ a {
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
+    transition: 0.25s;
+}
+
+.services__item__link:hover .servces__item__span {
+    text-shadow: 1px 0 0 currentColor;
+    text-decoration: underline;
 }
 
 .services__bottom {
@@ -1244,11 +1256,11 @@ a {
     background: #90ccff;
 }
 
-.blog__item:nth-child(2) .blog__media {
+.blog__item__link:nth-child(2) .blog__media {
     background: #ff997e;
 }
 
-.blog__item:nth-child(3) .blog__media {
+.blog__item__link:nth-child(3) .blog__media {
     background: #5bd6e2;
 }
 
@@ -1413,7 +1425,7 @@ a {
     margin-top: 14px;
 }
 
-.footer__link {
+.footer__link, .footer__timeline, .footer__addres {
     color: var(--primary-text-color-desc);
     font-size: 1.4rem;
     line-height: 2;
